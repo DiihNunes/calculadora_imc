@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modelo</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <div class="cabecario">
+      <div>
+        <h1>imc</h1>
+        <p>Menos do que 18.5</p>
+        <p>Entre 18.5 e 24.9</p>
+        <p>Entre 25 e 29.9</p>
+        <p>Entre 30 e 34.9</p>
+        <p>Entre 35 e 39.9</p>
+        <p>Mais do que 40</p>
+      </div>
+  
+      <div class="conteudo_esquerdo">
+        <h1>Resultado</h1>
+        <p>Abaixo do peso</p>
+        <p>Peso Normal</p>
+        <p>Sobrepeso</p>
+        <p>Obresidade grau 1</p>
+        <p>Obresidade grau 2</p>
+        <p>Obresidade grau 3</p>
+      </div>
+    </div>
+
+    <div class="calculo">
+      <h1>Calcule seu Imc</h1>
+      <p>Peso:</p>
+      <input type="text" class="peso">
+      <p>Altura:</p>
+      <input type="text" class="altura">
+
+      <button onclick="calculo()">Calcular</button>
+
+      <div class="mostrar_resultado"></div>
+      <div class="invalido"></div>
+    </div>
+
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
